@@ -3,102 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synix Electronics - የኤሌክትሮኒክስ እና የቤት እቃዎች መደብር</title>
+    <title>Synix Electronics - Bahir Dar</title>
     <style>
         * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; }
-        body { background-color: #f4f6f9; color: #333; }
+        body { background: #f4f6f9; color: #333; }
         header { background: #004b8d; color: white; padding: 25px 20px; text-align: center; }
         header h1 { font-size: 28px; margin-bottom: 8px; }
         header p { font-size: 16px; opacity: 0.9; }
+
         .container { max-width: 1100px; margin: 30px auto; padding: 0 15px; }
-        .section-title { font-size: 22px; margin-bottom: 20px; color: #004b8d; border-bottom: 2px solid #004b8d; padding-bottom: 5px; display: inline-block; }
+        .section-title { font-size: 22px; margin-bottom: 20px; color: #004b8d; border-bottom: 2px solid #004b8d; padding-bottom: 5px; }
+        
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
-        .card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; transition: transform 0.2s; }
-        .card:hover { transform: translateY(-5px); }
+        .card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; }
         .card img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 12px; }
         .card h3 { margin: 10px 0 5px; color: #222; font-size: 18px; }
         .card p { font-size: 14px; color: #666; margin-bottom: 12px; min-height: 40px; }
         .price { font-size: 17px; font-weight: bold; color: #e63946; margin-bottom: 15px; }
-        .btn { display: block; background: #0088cc; color: white; padding: 10px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 15px; transition: background 0.2s; }
-        .btn:hover { background: #006699; }
+        
+        .btn { display: block; background: #0088cc; color: white; padding: 10px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px; }
+        .btn-call { background: #28a745; }
+
+        /* የክፍያ እና የአካውንት ሳጥን */
+        .payment-box { background: white; border-radius: 12px; padding: 25px; margin-top: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 6px solid #004b8d; text-align: center; }
+        .payment-box h3 { color: #004b8d; margin-bottom: 15px; font-size: 20px; }
+        .acc-card { background: #eef4fc; padding: 15px; border-radius: 8px; margin: 12px 0; }
+        .acc-number { font-size: 20px; font-weight: bold; color: #004b8d; letter-spacing: 1px; }
+        .acc-name { font-size: 15px; color: #555; margin-top: 4px; font-weight: 600; }
+
         footer { text-align: center; padding: 25px; background: #1a1a1a; color: white; margin-top: 50px; font-size: 15px; }
-        footer p { margin: 5px 0; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Synix Electronics (ሳይኒክስ የኤሌክትሮኒክስ መደብር)</h1>
-    <p>ዘመናዊ ቲቪዎች፣ ፍሪጆች፣ የውሃ ማጣሪያዎች እና የቤት ውስጥ እቃዎች በታማኝነት እና በተመጣጣኝ ዋጋ!</p>
-</header>
+    <header>
+        <h1>Synix Electronics</h1>
+        <p>ባህር ዳር | ጥራት ያላቸው የኤሌክትሮኒክስ እቃዎችና የቤት ቁሳቁሶች</p>
+    </header>
 
-<div class="container">
-    <h2 class="section-title">የምናቀርባቸው እቃዎች</h2>
-    
-    <div class="grid">
-        <!-- Smart TV -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=500&q=80" alt="Smart TV">
-            <h3>Smart LED TV</h3>
-            <p>4K Ultra HD ጥራት ያለው ስማርት ቲቪ (የተለያዩ ኢንች አማራጮች አሉ)</p>
-            <div class="price">ዋጋ፡ በስልክ ወይም በቴሌግራም ይጠይቁን</div>
-            <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በቴሌግራም እዘዝ</a>
-        
-        <!-- Water Purifier -->
-        <div class="card">
-            <img src="IMG_20261010_122738_162.jpg" alt="Water Purifier">
-            <h3>የውሃ ማጣሪያ (Water Purifier)</h3>
-            <p>ንጹህና አስተማማኝ የውሃ ማጣሪያ በከፍተኛ ጥራት የቀረበ።</p>
-            <div class="price">ዋጋ በስልክ ወይም በቴሌግራም ይደውሉ</div>
-            <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በትእዛዝ ለመግዛት</a>
+    <div class="container">
+        <h2 class="section-title">የምናቀርባቸው እቃዎች</h2>
+
+        <div class="grid">
+            <!-- Water Purifier -->
+            <div class="card">
+                <img src="IMG_20261010_122738_162.jpg" alt="Water Purifier">
+                <h3>የውሃ ማጣሪያ (Water Purifier)</h3>
+                <p>ንጹህና አስተማማኝ የውሃ ማጣሪያ በከፍተኛ ጥራት የቀረበ።</p>
+                <div class="price">ዋጋ በስልክ ወይም በቴሌግራም ይደውሉ</div>
+                <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በቴሌግራም እቃዙ</a>
+                <a href="tel:+251909682868" class="btn btn-call">በስልክ ይደውሉ (0909682868)</a>
+            </div>
+
+            <!-- Refrigerator -->
+            <div class="card">
+                <img src="IMG_20261010_122738_162.jpg" alt="Refrigerator">
+                <h3>ፍሪጅ (Refrigerator)</h3>
+                <p>አስደናቂ ኤሌክትሮኒክ የቤት እቃና ጥራት ያለው ፍሪጅ ይዘን መጥተናል ።</p>
+                <div class="price">ዋጋ በስልክ ወይም በቴሌግራም ይደውሉ</div>
+                <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በቴሌግራም እቃዙ</a>
+                <a href="tel:+251909682868" class="btn btn-call">በስልክ ይደውሉ (0909682868)</a>
+            </div>
         </div>
 
-  
-       
-     
+        <!-- ክፍያ መፈጸሚያ ባንክ አካውንት -->
+        <div class="payment-box">
+            <h3>💳 የክፍያ መፈጸሚያ የባንክ ሂሳብ ቁጥሮች</h3>
+            <p>እቃ ለማዘዝ እና ክፍያ ለመፈጸም ከታች ያሉትን የባንክ አካውንቶች መጠቀም ይችላሉ፦</p>
+            
+            <div class="acc-card">
+                <p><strong>የኢትዮጵያ ንግድ ባንክ (CBE)</strong></p>
+                <div class="acc-number">1000699694669</div>
+                <div class="acc-name">TOFIK ENDRIS OMER</div>
+            </div>
 
-       <!-- Refrigerator -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1584568694244-14fbdf82bdcf?auto=format&fit=crop&w=500&q=80" alt="Fridge">
-            <h3>    <!-- Refrigerator -->
-    <div class="card">
-        <img src="IMG_20261010_122738_162.jpg" alt="Refrigerator">
-        <h3>ፍሪጅ (Refrigerator)</h3>
-        <p>አስደናቂ ኤሌክትሮኒክ የቤት እቃና ጥራት ያለው ፍሪጅ ይዘን መጥተናል ።</p>
-        <div class="price">ዋጋ በስልክ ወይም በቴሌግራም ይደውሉ</div>
-        <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በትእዛዝ ለመግዛት</a>
-    </div>
-
-            <p>አነስተኛ የኤሌክትሪክ ፍጆታ ያለው እና ጥራት ያለው ዘመናዊ ፍሪጅ</p>
-            <div class="price">ዋጋ፡ በስልክ ወይም በቴሌግራም ይጠይቁን</div>
-            <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በቴሌግራም እዘዝ</a>
-        </div>
-
-        <!-- Oven -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=500&q=80" alt="Oven">
-            <h3>ኦቭን (Electric Oven)</h3>
-            <p>ለኬክ፣ ለዳቦ እና ለተለያዩ ምግቦች ማብሰያ የሚሆን ምቹ ኦቭን</p>
-            <div class="price">ዋጋ፡ በስልክ ወይም በቴሌግራም ይጠይቁን</div>
-            <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በቴሌግራም እዘዝ</a>
-        </div>
-
-        <!-- Washing Machine -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=500&q=80" alt="Washing Machine">
-            <h3>የልብስ ማጠቢያ (Laundry Machine)</h3>
-            <p>ጊዜና ጉልበት የሚቆጥብ አውቶማቲክ የልብስ ማጠቢያና ማድረቂያ</p>
-            <div class="price">ዋጋ፡ በስልክ ወይም በቴሌግራም ይጠይቁን</div>
-            <a href="https://t.me/Tewfik1k" class="btn" target="_blank">በቴሌግራም እዘዝ</a>
+            <div class="acc-card">
+                <p><strong>ቴሌብር (Telebirr)</strong></p>
+                <div class="acc-number">0909682868</div>
+                <div class="acc-name">TOFIK ENDRIS OMER</div>
+            </div>
         </div>
     </div>
-</div>
 
-<footer>
-    <p>📍 አድራሻ፡ ባህር ዳር፣ ቀበሌ 06 (የድሮው ጋምቢ አካባቢ)</p>
-    <p>📞 ስልክ ቁጥር፡ 0909682868 | ቴሌግራም: @Tewfik1k</p>
-    <p>&copy; 2026 Synix Electronics. መብቱ በህግ የተጠበቀ ነው።</p>
-</footer>
+    <footer>
+        <p>Synix Electronics - Bahir Dar | All rights reserved</p>
+    </footer>
 
 </body>
 </html>
